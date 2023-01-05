@@ -1,0 +1,9 @@
+.car{
+    margin-top: 50px;
+}
+#carouselExampleIndicators{
+    margin: 0 -10px;
+}
+.carousel-inner{
+   height: 400px;
+}
