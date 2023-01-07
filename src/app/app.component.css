@@ -41,14 +41,8 @@
     line-height: 16px;
     margin: 10px 0;
 }
-/* body */
-.body{
-    margin: 0 24px;
-    padding: 16px 0 12px;
-    position: relative;
-    font-family: Open Sans,-apple-system,Roboto,Helvetica neue,Helvetica,sans-serif;
-    box-sizing: border-box;
-}
+
+
 tr{
     line-height: 23px;
     margin: 0;
@@ -61,6 +55,28 @@ th{
 }
 td{
     display: inline-block; 
+}
+
+/* body */
+.body{
+    margin: 0 24px;
+    padding: 16px 0 12px;
+    position: relative;
+    font-family: Open Sans,-apple-system,Roboto,Helvetica neue,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+
+.crd{
+    display: flex
+}
+.crdtxt{
+    display: inline-block;
+    font-family: Open Sans,-apple-system,Roboto,Helvetica neue,Helvetica,sans-serif;
+    line-height: 24px;
+    margin-bottom: 8px;
+    vertical-align: top;
+    letter-spacing: .025em;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1024px) {
