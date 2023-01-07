@@ -8,19 +8,23 @@
    height: 700px;
 }
 
-.row{
+
+.content{
+    margin-top: 10px;
+}
+.MAIN{
     background: rgba(0, 0, 0, 0.616);
     color: white;
 }
 
 /* heading */
-
-
 .header{
     margin: 0 24px;
     padding: 16px 0 12px;
     position: relative;
     font-family: Open Sans,-apple-system,Roboto,Helvetica neue,Helvetica,sans-serif;
+    border-bottom: 1px solid silver;
+    box-sizing: border-box;
 }
 .artistlink{
     text-decoration: none;
@@ -36,6 +40,27 @@
     font-size: 13px;
     line-height: 16px;
     margin: 10px 0;
+}
+/* body */
+.body{
+    margin: 0 24px;
+    padding: 16px 0 12px;
+    position: relative;
+    font-family: Open Sans,-apple-system,Roboto,Helvetica neue,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+tr{
+    line-height: 23px;
+    margin: 0;
+    position: relative;
+}
+th{
+    display: inline-block;
+    font-weight: 400;
+    padding-right: 4px;
+}
+td{
+    display: inline-block; 
 }
 
 @media only screen and (max-width: 1024px) {
