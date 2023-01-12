@@ -79,6 +79,13 @@ td{
     text-transform: uppercase;
 }
 
+.writing{
+    grid-area: content;
+    padding: 24px;
+}
+pre{
+    
+}
 @media only screen and (max-width: 1024px) {
     .carousel-inner{
         height: 600px;
