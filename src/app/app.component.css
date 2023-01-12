@@ -84,8 +84,21 @@ td{
     padding: 24px;
 }
 pre{
-    
+    font-size: 13px;
+    font-family: "Roboto Mono", "Courier New", monospace;
+    line-height: 0.7em;
+    margin: 0;
+    display: block;
 }
+.line{
+    display: block;
+    color: rgb(195, 0, 255);
+}
+.verse{
+    color: white;
+    display: block;
+}
+
 @media only screen and (max-width: 1024px) {
     .carousel-inner{
         height: 600px;
